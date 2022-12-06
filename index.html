@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+           <input type="text" placeholder="0" id="calc" value="" disabled >
+           <i id="btn_hes" class="fa-solid fa-clock-rotate-left" onclick="hes()"></i>
+           <div id="hes">
+            
+           </div>
+        </div>
+        <div class="down">
+            <button onclick="supp()" class="item-ac">AC</button>
+            <button onclick="display('()')" class="item-blue">()</button>
+            <button onclick="display('%')" class="item-blue">%</button>
+            <button onclick="display('/')" class="item-blue">/</button>
+            <button onclick="display('7')" class="item-black">7</button>
+            <button onclick="display('8')" class="item-black">8</button>
+            <button onclick="display('9')" class="item-black">9</button>
+            <button onclick="display('*')" class="item-blue">x</button>
+            <button onclick="display('4')" class="item-black">4</button>
+            <button onclick="display('5')" class="item-black">5</button>
+            <button onclick="display('6')" class="item-black">6</button>
+            <button onclick="display('-')" class="item-blue">-</button>
+            <button onclick="display('1')" class="item-black">1</button>
+            <button onclick="display('2')" class="item-black">2</button>
+            <button onclick="display('3')" class="item-black">3</button>
+            <button onclick="display('+')" class="item-blue">+</button>
+            <button onclick="display('0')" class="item-black">0</button>
+            <button onclick="display('.')" class="item-black">.</button>
+            <button onclick="del()" class="item-black"><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="calc('=')" class="item-egal">=</button>
+        </div>
+    </section>
+<script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a4f9ee6ea0.js" crossorigin="anonymous"></script>
+</body>
+</html>
